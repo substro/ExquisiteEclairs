@@ -92,16 +92,28 @@ select {
 }
 /* ---  */
 
-/* nav  */
-
-header {
-  outline: 1px solid yellow;
-  /* background-image: url(./assets/background/landing-page/dripping-bg.png); */
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* background-origin: border-box; */
+/* utility classes */
+.flex {
+  display: flex;
+  
 }
 
+/* ---  */
+
+
+/*! HEADER  */
+
+/*
+header {
+  outline: 1px solid yellow;
+  background-image: url(./assets/background/landing-page/dripping-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+*/
+
+/* header dripping bg  */
 .spacer {
   aspect-ratio: 960/600;
   width: 100%;
@@ -112,6 +124,8 @@ header {
 .layer1 {
   background-image: url(./assets/background/landing-page/drip-haikei.svg);
 }
+
+/* nav  */
 
 .primary-navigation {
   display: flex;
@@ -126,11 +140,30 @@ header {
 .order-link {
   text-align: center;
   padding-block: 1rem;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 
 .logo {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   padding-block: 1rem;
   width: 150px;
+}
+
+/* header content  */
+
+.header-img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blueberries {
+}
+.rasberries {
+  
 }
